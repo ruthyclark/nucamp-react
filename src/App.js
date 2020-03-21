@@ -18,8 +18,8 @@ class App extends Component {
                 <div className="container">
                     <NavbarBrand href="/">NuCamp</NavbarBrand>
                 </div>
-                <Directory campsites = {this.state.campsites} />
                 </Navbar>
+                <Directory campsites = {this.state.campsites} />
             </div>
         );
     }
